@@ -1,4 +1,4 @@
-import getRandomNumber from "./getRandomNumber";
+import getRandomNumber from "./get-random-number";
 
 interface Props {
   length: number;
@@ -6,6 +6,6 @@ interface Props {
 
 export default function getRandomArray({ length }: Props) {
   return Array.from({ length }).map(() =>
-    getRandomNumber({ min: 0, max: 100 })
+    getRandomNumber({ min: 5, max: 100 })
   );
 }
