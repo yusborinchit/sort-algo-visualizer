@@ -1,7 +1,7 @@
 # Sort Algo Visualizer
 
-- [ ] Crear y mostrar un array con valores random
-- [ ] Dar la posiblidad de crear otro array con nuevos valores
+- [x] Crear y mostrar un array con valores random
+- [x] Dar la posiblidad de crear otro array con nuevos valores
 - [ ] Ordenar el array
   - [ ] Implementar el bubble sort
   - [ ] Implementar el quick sort
